@@ -28,3 +28,8 @@ C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\obj\Debug\wpfsakk.csproj.Genera
 C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\obj\Debug\wpfsakk.csproj.CoreCompileInputs.cache
 C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\obj\Debug\wpfsakk.exe
 C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\obj\Debug\wpfsakk.pdb
+C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\bin\Debug\bg.png
+C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\obj\Debug\wpfsakk_Content.g.cs
+C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\bin\Debug\bin\Debug\assets\bishop_white.png
+C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\bin\Debug\bin\Debug\assets\lep.png
+C:\Users\Boti\source\repos\Chess\wpfsakk\wpfsakk\bin\Debug\bin\Debug\assets\mt.png

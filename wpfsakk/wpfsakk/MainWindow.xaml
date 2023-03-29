@@ -16,7 +16,7 @@
         </Grid.RowDefinitions>
         <Grid Grid.Column="0">
             <Grid.Background>
-                <ImageBrush ImageSource="C:\Users\Boti\source\repos\sakkwpf\sakkwpf\bin\Debug\bg.png"></ImageBrush>
+                <ImageBrush ImageSource="bg.png"></ImageBrush>
             </Grid.Background>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
