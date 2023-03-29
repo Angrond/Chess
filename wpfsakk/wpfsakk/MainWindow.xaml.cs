@@ -26,8 +26,14 @@ namespace wpfsakk
         string milep;
         int voltx;
         int volty;
+        BitmapImage white_bishop = new BitmapImage(new Uri("./assets/bishop_white.png", UriKind.Relative));
+        BitmapImage lep = new BitmapImage(new Uri("./assets/lep.png", UriKind.Relative));
+        BitmapImage mt = new BitmapImage(new Uri("./assets/mt.png", UriKind.Relative));
         public MainWindow()
         {
+            
+            
+
             InitializeComponent();
             kepek = new Image[8, 8] {
                 { Img_a8, Img_b8, Img_c8, Img_d8, Img_e8, Img_f8, Img_g8, Img_h8 },
@@ -80,7 +86,7 @@ namespace wpfsakk
                         {
                             if (tabla[x + i, y + i] == "-")
                             {
-                                kepek[x + i, y + i].Source = new BitmapImage(new Uri("C:/Users/Boti/source/repos/wpfsakk/wpfsakk/bin/Debug/assets/lep.png"));
+                                kepek[x + i, y + i].Source = lep;
                                 tabla[x + i, y + i] = ".";
                             }
                         }
@@ -93,7 +99,7 @@ namespace wpfsakk
                         {
                             if (tabla[x - i, y + i] == "-")
                             {
-                                kepek[x - i, y + i].Source = new BitmapImage(new Uri("C:/Users/Boti/source/repos/wpfsakk/wpfsakk/bin/Debug/assets/lep.png"));
+                                kepek[x - i, y + i].Source = lep;
                                 tabla[x - i, y + i] = ".";
                             }
                         }
@@ -106,7 +112,7 @@ namespace wpfsakk
                         {
                             if (tabla[x + i, y - i] == "-")
                             {
-                                kepek[x + i, y - i].Source = new BitmapImage(new Uri("C:/Users/Boti/source/repos/wpfsakk/wpfsakk/bin/Debug/assets/lep.png"));
+                                kepek[x + i, y - i].Source = lep;
                                 tabla[x + i, y - i] = ".";
                             }
                         }
@@ -119,7 +125,7 @@ namespace wpfsakk
                         {
                             if (tabla[x - i, y - i] == "-")
                             {
-                                kepek[x - i, y - i].Source = new BitmapImage(new Uri("C:/Users/Boti/source/repos/wpfsakk/wpfsakk/bin/Debug/assets/lep.png"));
+                                kepek[x - i, y - i].Source = lep;
                                 tabla[x - i, y - i] = ".";
                             }
                         }
@@ -154,11 +160,11 @@ namespace wpfsakk
                     {
                         case "-":
                         case ".":
-                            kepek[i,j].Source= new BitmapImage(new Uri("C:/Users/Boti/source/repos/wpfsakk/wpfsakk/bin/Debug/assets/mt.png"));
+                            kepek[i,j].Source= mt;
                             tabla[i, j] = "-";
                             break;
                         case "futo":
-                            kepek[i, j].Source = new BitmapImage(new Uri("C:/Users/Boti/source/repos/wpfsakk/wpfsakk/bin/Debug/assets/bishop_white.png"));
+                            kepek[i, j].Source = white_bishop;
                             break;
                         default:
                             break;
